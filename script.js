@@ -36,3 +36,21 @@ document.querySelectorAll('img').forEach(img => {
 });
 
 document.getElementById('year').textContent = new Date().getFullYear();
+.project-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+.project-links a {
+    padding: 8px 14px;
+    border: 1px solid currentColor;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.project-links a:hover {
+    opacity: 0.7;
+}
